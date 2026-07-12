@@ -50,3 +50,40 @@ padding: 0 auto 100px;
   cursor: pointer;
 
 }
+strong{
+    
+font-family: 'Inter', sans-serif;
+font-size: 72px;
+    font-weight: 750;
+    max-width: 1000px;
+    margin: 0 auto;
+letter-spacing: -2px;
+color: white;
+
+}
+article{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+  font-weight:lighter; 
+    color: rgba(255,255,255,0.8);
+  line-height: 1.5;
+  margin-top: 10px;
+  padding: 10px 100px;
+  
+  margin-bottom: 20px;
+  text-align: center;
+  
+ 
+  width: 45%;
+}
+.banner{
+    background-image: url(./assets/banner.jpg);
+    
+background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+  justify-content: flex-start;
+padding-top: 8rem;
+
+}

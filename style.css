@@ -22,9 +22,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 11px 85px;
+    padding: 20px 85px;
     background-color: #ffffff;
-    height: 77px;
+    height: 96px;
 }
 
 .list{
@@ -58,16 +58,15 @@ padding: 0 auto 100px;
   cursor: pointer;
 
 }
-strong{
-    
-font-family: 'Inter', sans-serif;
-font-size: 80px;
-    font-weight: 620;
-    max-width: 950px;
-    margin: 0 310px 0  235px;
-letter-spacing: -4.5px;
-color: white;
-
+.banner > strong{
+    font-family: 'Inter', sans-serif;
+    font-size: 82px;
+    font-weight: 610;
+    max-width: 850px;
+    margin: 15px auto 0; 
+    letter-spacing: -3px;
+    color: white;
+    text-align: center;
 }
 article{
     font-size: 22px;
@@ -82,7 +81,7 @@ article{
   margin-left: auto;
   margin-right:auto;
   text-align: center; 
-  width: 60%;
+  width: 75%;
   
 }
 .banner{
@@ -91,19 +90,30 @@ article{
 background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    min-height: 806px;
   justify-content: flex-start;
 padding-top: 8rem;
-padding-left: 10.3rem;
+padding-bottom: 0;
+text-align: center;
+padding-left: 111px;
 }
 
 .common.btn{
 padding: 24px 56px;
     font-size: 25px;
     margin-top: 205px;
-    width: 275px;
-   
-
+    width: 282px;
+    height: 74px;
+}
+.reji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    width: 280px;   
+    height: 72px;
+    margin: 285px auto 0;
 }
 .content{
 
